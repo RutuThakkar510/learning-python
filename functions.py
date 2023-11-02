@@ -14,4 +14,9 @@ def subtract(a: int,b: int):
     return a - b
 
 result = subtract(10,5)
-print(result)   
+print(result)
+
+def display(*num):
+    print(num)
+
+display(1,2,3)
